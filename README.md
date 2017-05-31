@@ -20,3 +20,7 @@ Member
 		description VARCHAR(45),
 		CONSTRAINT `PRIMARY` PRIMARY KEY (id)
 	) ;
+
+### how to run Springboot framework
+
+	$ spring-boot:run
