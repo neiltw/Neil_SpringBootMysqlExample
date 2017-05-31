@@ -1,6 +1,14 @@
 # spring-boot-mysql-example
 spring boot connect mysql and use CrudRepository or create EntityManager 
 
+	used library
+	1.Spring Boot 1.5.2.RELEASE
+	2.Spring 4.3.8.RELEASE
+	3.Maven 3
+	4.Java 8
+	5.Mysql
+	6.Tomcat Embed
+
 #Table schema
 
 	Game 
