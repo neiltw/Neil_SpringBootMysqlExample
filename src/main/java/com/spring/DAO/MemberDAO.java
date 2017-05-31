@@ -40,7 +40,7 @@ public class MemberDAO  implements MemberRepoDAO{
 	
 	@Override
 	public boolean existsMember(Member m) {
-		String hql = "FROM Member as atcl WHERE atcl.id = ? ";
+		String hql = "FROM Member as m WHERE m.id = ? ";
 		int count = entityManager.createQuery(hql).setParameter(1, m.getId())
 		              .getResultList().size();
 		return count > 0 ? true : false;
